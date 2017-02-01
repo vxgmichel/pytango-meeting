@@ -21,24 +21,56 @@ layout: true
 
 ---
 
+Main issues from the last pytango meeting:
+
+| Issues                          | Status            |
+|---------------------------------|-------------------|
+| Pytango server restart segfault | **-> Postponed**  |
+| Fix using deprecated NumPy API  | **-> Postponed**  |
+| Get rid of metaclass definition | **-> Done**       |
+
+---
+
 Pytango server restart segfault
 -------------------------------
 
-- Urgency: medium/low
-- Difficulty to solve: hard
-- **Postponed**
+**Urgency:**
+- Medium/low
+
+**Difficulty:**
+- Hard
+
+**Postponed:**
+- Should we reconsider?
+
+---
 
 Fix using deprecated NumPy API
 ------------------------------
 
-- Urgency: low
-- Difficulty to solve: hard
-- **Status?**
+**Urgency:**
+- Low
+
+**Difficulty:**
+- Hard
+
+**Postponed:**
+- Should we reconsider?
+
+
+---
 
 Get rid of metaclass definition
 -------------------------------
 
-- **Done**: Fix by PR#90, visible in 9.2.1
+**Urgency:**
+- Low
+
+**Difficulty:**
+- Hard
+
+**Done:**
+- Fixed in PR#90, visible in 9.2.1
 
 ---
 name: major task layout
@@ -49,23 +81,25 @@ layout: true
 
 ---
 
-| Tasks                           | Status                    |
-|---------------------------------|---------------------------|
-| Unit tests                      | **Done, to be improved**  |
-| Continuous integration          | **Done**                  |
-| Define git workflow             | **Done, to be discussed** |
-| Documentation generation        | **Done**                  |
-| Change of binding               | **Postponed**             |
-| Move itango to separate project | **Done**                  |
-| Refactor setup.py               | **Done, to be improved**  |
-| Server argparse                 | **Postponed**             |
-| Rename PyTango to tango         | **Done, following up**    |
-| Refactor asynchronous layer     | **Ongoing**               |
-| Refactor tango objects          | **Done**                  |
-| Define coding standards         | **Ongoing**               |
-| Clean directory tree            | **Done**                  |
-| Simplify DeviceImpl             | **Done, to be discussed** |
-| Releases                        | **Done, following up**    |
+Major tasks from the last pytango meeting:
+
+| Tasks                           | Status                       |
+|---------------------------------|------------------------------|
+| Unit tests                      | **-> Done, to be improved**  |
+| Continuous integration          | **-> Done**                  |
+| Define git workflow             | **-> Done, to be discussed** |
+| Documentation generation        | **-> Done**                  |
+| Change of binding               | **-> Postponed**             |
+| Move itango to separate project | **-> Done**                  |
+| Refactor setup.py               | **-> Done, to be improved**  |
+| Server argparse                 | **-> Postponed**             |
+| Rename PyTango to tango         | **-> Done, following up**    |
+| Refactor asynchronous layer     | **-> Ongoing**               |
+| Refactor tango objects          | **-> Done**                  |
+| Define coding standards         | **-> Ongoing**               |
+| Clean directory tree            | **-> Done**                  |
+| Simplify DeviceImpl             | **-> Done, to be discussed** |
+| Releases                        | **-> Done, following up**    |
 
 ---
 
@@ -126,7 +160,10 @@ Documentation generation
 Change of binding
 -----------------
 
-**=> Postponed**
+**Postponed:**
+- Any update?
+
+---
 
 Move itango to separate project
 -------------------------------
@@ -149,10 +186,13 @@ Refactor setup.py
 - Refactor platform specific code
 - Add classifiers and requirements
 
+---
+
 Server argparse
 ---------------
 
-**=> Postponed**
+**Postponed:**
+- Any update?
 
 ---
 
@@ -163,7 +203,7 @@ Rename PyTango to tango
 - The module is now called tango
 - A PyTango compatibilty module has been added
 
-**To do:**
+**To discuss:**
 - Issue warnings?
 
 ---
@@ -186,6 +226,8 @@ Refactor tango objects
 **Done:**
 - Move tango objects to a separate module
 
+---
+
 Define coding standards
 -----------------------
 
@@ -204,6 +246,8 @@ Clean directory tree
 **Done:**
 - Most of the unused files have been removed from pytango 9
 - But still available in the tango8 branch
+
+---
 
 Simplify DeviceImpl
 -------------------
@@ -233,6 +277,12 @@ layout: true
 =============
 
 ---
+
+- Go through open issues
+
+- What next?
+
+---
 name: final
 layout: false
 class: center, middle
@@ -241,6 +291,6 @@ Presentation written in `Markdown` and rendered by [remark](http://remarkjs.com/
 
 Sources for this presentation can be found on github
 
-[vxgmichel/presentation-pytango-quality](https://github.com/vxgmichel/pytango-meeting)
+[vxgmichel/pytango-meeting](https://github.com/vxgmichel/pytango-meeting)
 
 Thanks
