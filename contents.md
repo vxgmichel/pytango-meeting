@@ -268,20 +268,6 @@ Releases
 - Version 9.2.0 - 18/08/2016
 - Version 9.2.1 - 30/01/2016
 
-
----
-name: discussion layout
-layout: true
-
-3. Discussion
-=============
-
----
-
-- Go through open issues
-
-- What next?
-
 ---
 name: final
 layout: false
