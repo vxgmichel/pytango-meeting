@@ -19,7 +19,7 @@ Fix using deprecated NumPy API
 
  - Other compilation warnings are related to zero message queue.
 
-> -> We should investigate those warnings and probably report them direclty on zero message queue github
+> -> We should investigate those warnings and probably report them on the cppTango github
 
 
 
@@ -30,13 +30,13 @@ Get rid of metaclass definition
 
 Continuous integration
 ----------------------
- - Travis used conda to run PyTango unitest.
+ - Travis uses conda to run PyTango unitest.
 
 >   -> There is no official Tango channel in Conda
 
->   -> Travis can build this Conda package.
+>   -> Travis could build this Conda package.
  
- - Conda can make Windows builds easier.
+ - Conda might make Windows builds easier.
 
 
 Define git workflow
@@ -48,13 +48,13 @@ Define git workflow
 Documentation generation
 ------------------------
  - The PyTango ESRF website is still the default result in Google
->   -> we should redirect this URL to the official ReadTheDoc website.
+>   -> we should create a link on this URL to the official ReadTheDoc website.
 
  - Old PyTango documentations (PyTango version < 9.) are not hosted on RTD and should stay on the ESRF servers.
 
- - There is no documentaiton about documentation generation and mock system.
+ - There is no documentation about documentation generation and mock system.
 
- - PyTango documentation need to be reviewed:
+ - PyTango documentation needs to be reviewed:
 
 >   -> Make documentation up to date
 
@@ -62,7 +62,7 @@ Documentation generation
 
 >   -> Document and promote new features.
 
- - there is an plan to improve documentation on cpptango side (task force), we should harmonize and include pytango in the task force.
+ - There is a plan to improve documentation on cpptango side (task force), we should harmonize and include pytango in the task force.
 
   
 Change of binding
@@ -84,7 +84,7 @@ Change of binding
  
 Move itango to separate project
 -------------------------------
- - itango documentation is not on readthedoc
+ - itango documentation is not on readthedoc but on pythonhosted
 
  - Nicolas Leclerq has done an example of what can be done today with Jupyter, Ipywidgets, Bokeh that can be combined with itango.
 
@@ -96,9 +96,9 @@ Refactor setup.py
 Server argparse
 ---------------
  - Extend PyTango command line interface and add custom argument.
- - Issue: corba argument can not be compatible with argparse.
+ - Issue: corba argument are not fully compatible with argparse.
  - Low priority because it is not compatible with the starter.
- - It can be good for a beginner in pytango to get in PyTango
+ - It can be a good task to get in PyTango for some who wants to start contributing.
 
 Rename PyTango to tango
 -----------------------
@@ -110,10 +110,10 @@ Refactor asynchronous layer
 
 Define coding standards
 -----------------------
- - Add guide line in documenation about coding standards
+ - Add guide line in documentation about coding standards
 
-Clean directory tree
+Clean up
 --------------------
  - Keep old object for backward compatibility and advertise HL API.
- - There is a lot of attributed expose in the tango module. We should clean up at the next major realised and advertise for compatiblity
+ - There is a lot of attributes expose in the tango module. We should clean up at the next major realise and advertise for compatiblity
 
